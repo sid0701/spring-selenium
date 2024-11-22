@@ -1,0 +1,28 @@
+2024-07-18T16:36:54.397+02:00  INFO 12956 --- [main] c.u.s.s.visa_tests.VisaRegistrationTest  : Starting VisaRegistrationTest using Java 17.0.11 with PID 12956 (C:\Users\DELL\OneDrive\Desktop\Core Java\02-CodeWithVinoth\spring-selenium\spring-selenium\target\test-classes started by DELL in C:\Users\DELL\OneDrive\Desktop\Core Java\02-CodeWithVinoth\spring-selenium\spring-selenium)
+2024-07-18T16:36:54.399+02:00  INFO 12956 --- [main] c.u.s.s.visa_tests.VisaRegistrationTest  : No active profile set, falling back to 1 default profile: "default"
+2024-07-18T16:36:54.631+02:00  WARN 12956 --- [main] o.s.c.a.AnnotationBeanNameGenerator      : Support for convention-based stereotype names is deprecated and will be removed in a future version of the framework. Please annotate the 'value' attribute in @com.udemy.spring.spring_selenium.kelvin.annotations.Window with @AliasFor(annotation=Component.class) to declare an explicit alias for @Component's 'value' attribute.
+2024-07-18T16:36:55.271+02:00  INFO 12956 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-18T16:36:55.410+02:00  INFO 12956 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116 ms. Found 1 JPA repository interface.
+2024-07-18T16:36:56.640+02:00  INFO 12956 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-18T16:36:56.993+02:00  INFO 12956 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:cc6b11ae-47a5-4df9-bb1a-b70b687ca626 user=SA
+2024-07-18T16:36:56.994+02:00  INFO 12956 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-18T16:36:57.104+02:00  INFO 12956 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-18T16:36:57.262+02:00  INFO 12956 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-18T16:36:57.337+02:00  INFO 12956 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-18T16:36:58.097+02:00  INFO 12956 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-18T16:36:59.695+02:00  INFO 12956 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-18T16:36:59.732+02:00  INFO 12956 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18T16:37:00.340+02:00  INFO 12956 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\DELL\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+2024-07-18T16:37:04.141+02:00  INFO 12956 --- [main] c.u.s.s.visa_tests.VisaRegistrationTest  : Started VisaRegistrationTest in 10.421 seconds (process running for 12.775)
+2024-07-18T16:37:06.577+02:00  INFO 12956 --- [main] c.u.s.s.visa.VisaRegistrationPage        : Getting Names : Rolland
+2024-07-18T16:37:09.695+02:00  INFO 12956 --- [main] c.u.s.s.visa_tests.VisaRegistrationTest  : Request confirmation # INFO : 8343438
+2024-07-18T16:37:09.739+02:00  WARN 12956 --- [main] c.u.s.s.visa_tests.VisaRegistrationTest  : Request confirmation # WARN : 8343438
+2024-07-18T16:37:09.914+02:00  INFO 12956 --- [main] c.u.s.s.visa.VisaRegistrationPage        : Getting Names : Wanetta
+2024-07-18T16:37:13.026+02:00  INFO 12956 --- [main] c.u.s.s.visa_tests.VisaRegistrationTest  : Request confirmation # INFO : 312842
+2024-07-18T16:37:13.066+02:00  WARN 12956 --- [main] c.u.s.s.visa_tests.VisaRegistrationTest  : Request confirmation # WARN : 312842
+2024-07-18T16:37:13.441+02:00  INFO 12956 --- [main] c.u.s.s.visa.VisaRegistrationPage        : Getting Names : Arletha
+2024-07-18T16:37:16.494+02:00  INFO 12956 --- [main] c.u.s.s.visa_tests.VisaRegistrationTest  : Request confirmation # INFO : 5155406
+2024-07-18T16:37:16.563+02:00  WARN 12956 --- [main] c.u.s.s.visa_tests.VisaRegistrationTest  : Request confirmation # WARN : 5155406
+2024-07-18T16:37:16.802+02:00  INFO 12956 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18T16:37:16.808+02:00  INFO 12956 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-18T16:37:16.813+02:00  INFO 12956 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

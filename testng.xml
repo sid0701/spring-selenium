@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="spring-boot" parallel="none">
+    <test name="test-1">
+        <classes>
+            <class name="com.udemy.spring.spring_selenium.google_project_tests.GoogleWorkflowTest1"/>
+        </classes>
+    </test>
+    <test name="test-2">
+        <classes>
+            <class name="com.udemy.spring.spring_selenium.google_project_tests.GoogleWorkflowTest2" />
+        </classes>
+    </test>
+    <test name="test-3">
+        <classes>
+            <class name="com.udemy.spring.spring_selenium.google_project_tests.GoogleWorkflowTest3" />
+        </classes>
+    </test>
+    <test name="test-4">
+        <classes>
+            <class name="com.udemy.spring.spring_selenium.google_project_tests.GoogleWorkflowTest4" />
+        </classes>
+    </test>
+</suite>
